@@ -1,6 +1,7 @@
 from selene.api import s
 from selenium import webdriver
 from selenium.webdriver.common.action_chains  import ActionChains
+from selene.api import *
 import allure
 
 
@@ -96,3 +97,12 @@ class RegisterPage(object):
                     self.female_radio.click()
             with allure.step('Нажатие кнопки Зарегестрироваться'):
                 self.submit.click()
+
+    def check_email(self, email):
+        with allure.step("Ввод некорректного e-mail: %s"%email):
+            self.email_input.set(email)
+        with allure.step('Нажатие кнопки Зарегестрироваться'):
+            self.submit.click()
+        with allure.step('Проверка перехода на страницу успешной регистрации'):
+            self.title_text.should_not(have.exact_text('Добро пожаловать!'))
+        return self
