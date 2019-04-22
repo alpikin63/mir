@@ -34,6 +34,7 @@ class RegisterPage(object):
         self.error_phone = s('.master-message .master-message__msg')
         self.master_error = s('.master-message.is-error.is-active')
         self.auth_back_error = s('.auth__master-error')
+        self.sex_error = s('div.reg__form-block.reg__form-block--radio.form__group.mb-4 > div > span')
 
     def register_step1(self, user, driver):
         with allure.step('Ввод телефона: %s - переход на следующий шаг'%user.phone):
@@ -49,16 +50,17 @@ class RegisterPage(object):
             if user.chekbox2 == 1:
                 self.checkbox2.click()
             self.next_button.click()
-            return self
+        return self
 
-    def register_step2(self, user):
-        self.register_step1(user)
+    def register_step2(self, user, driver):
+        self.register_step1(user, driver)
         with allure.step('Ввод кода - переход на следующий шаг'):
             self.code_input.set(user.sms_code)
             self.next_button.click()
+        return self
 
-    def register_step3(self, user):
-        self.register_step2(user)
+    def register_step3(self, user, driver):
+        self.register_step2(user, driver)
         with allure.step('Заполнение данных формы'):
 
             with allure.step('Поле Фио: %s'%user.fio):

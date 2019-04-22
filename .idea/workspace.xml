@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="433c0655-88f2-40ac-b5fc-f3d36bb646ac" name="Default Changelist" comment="" />
+    <list default="true" id="433c0655-88f2-40ac-b5fc-f3d36bb646ac" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/autotest_mir.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/autotest_mir.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/RegisterPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/RegisterPage.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/tests/register.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/register.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +20,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/header.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
+            <state relative-caret-position="68">
               <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
@@ -25,8 +32,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tests/register.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
+            <state relative-caret-position="614">
+              <caret line="118" column="13" lean-forward="true" selection-start-line="118" selection-start-column="13" selection-end-line="118" selection-end-column="13" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -37,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tests/login.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+            <state relative-caret-position="306">
+              <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -49,8 +56,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/LoginPage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+            <state relative-caret-position="442">
+              <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -61,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/model/user.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="21" />
+            <state relative-caret-position="34">
+              <caret line="2" column="37" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -70,7 +77,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tests_pi_vkc/clients-id.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
+            <state relative-caret-position="68">
               <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
             </state>
           </provider>
@@ -79,7 +86,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/LkMainPage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
+            <state relative-caret-position="51">
               <caret line="3" column="16" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="16" />
             </state>
           </provider>
@@ -88,8 +95,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/RegisterPage.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-61">
-              <caret line="41" column="34" lean-forward="true" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+            <state relative-caret-position="119">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
               </folding>
@@ -111,6 +118,9 @@
       <find>locator_register_</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -131,80 +141,78 @@
         <option value="$PROJECT_DIR$/src/tests/login.py" />
         <option value="$PROJECT_DIR$/src/components/header.py" />
         <option value="$PROJECT_DIR$/src/tests_pi_vkc/clients-id.py" />
-        <option value="$PROJECT_DIR$/src/tests/register.py" />
         <option value="$PROJECT_DIR$/src/pages/RegisterPage.py" />
+        <option value="$PROJECT_DIR$/src/tests/register.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="53" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
+    <option name="x" value="20" />
+    <option name="y" value="149" />
+    <option name="width" value="1920" />
+    <option name="height" value="1040" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="autotest_mir" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autotest_mir" type="462c0819:PsiDirectoryNode" />
+              <item name="mir" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mir" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="autotest_mir" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autotest_mir" type="462c0819:PsiDirectoryNode" />
+              <item name="mir" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mir" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="autotest_mir" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autotest_mir" type="462c0819:PsiDirectoryNode" />
+              <item name="mir" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mir" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="autotest_mir" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autotest_mir" type="462c0819:PsiDirectoryNode" />
+              <item name="mir" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mir" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="autotest_mir" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autotest_mir" type="462c0819:PsiDirectoryNode" />
+              <item name="mir" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mir" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="autotest_mir" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autotest_mir" type="462c0819:PsiDirectoryNode" />
+              <item name="mir" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mir" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="autotest_mir" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autotest_mir" type="462c0819:PsiDirectoryNode" />
+              <item name="mir" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mir" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tests_api_mp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="autotest_mir" type="b2602c69:ProjectViewProjectNode" />
-              <item name="autotest_mir" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="tests_pi_vkc" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name=".pytest_cache" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mir_repo" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -231,7 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for register.test_step1_empty_checkbox">
+  <component name="RunManager" selected="Python tests.pytest in register.py">
     <configuration name="auth" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="autotest_mir" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -244,6 +252,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/tests/login.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -265,6 +274,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/tests_pi_vkc/clients-id.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -283,13 +293,14 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
       <option name="_new_target" value="&quot;register.test_step1_empty_checkbox&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in tests" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for register.test_step2_uncorrect_code" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="autotest_mir" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -298,18 +309,36 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/tests&quot;" />
+      <option name="_new_target" value="&quot;register.test_step2_uncorrect_code&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in register.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="autotest_mir" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/src/tests/register.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in register.py" />
+        <item itemvalue="Python tests.pytest for register.test_step2_uncorrect_code" />
         <item itemvalue="Python tests.pytest for register.test_step1_empty_checkbox" />
         <item itemvalue="Python.clients-id" />
         <item itemvalue="Python.auth" />
-        <item itemvalue="Python tests.pytest in tests" />
       </list>
     </recent_temporary>
   </component>
@@ -323,52 +352,72 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553710400884</updated>
+      <workItem from="1555916117466" duration="518000" />
+      <workItem from="1555916660289" duration="1532000" />
+      <workItem from="1555918613969" duration="3161000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_in_tests - 2019.03.28 at 23h 57m 37s.xml">
-      <configuration name="pytest in tests" configurationId="tests" />
+    <history-entry file="pytest_in_register_py - 2019.04.22 at 10h 05m 09s.xml">
+      <configuration name="pytest in register.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_tests - 2019.03.28 at 23h 58m 18s.xml">
-      <configuration name="pytest in tests" configurationId="tests" />
+    <history-entry file="pytest_in_register_py - 2019.04.22 at 10h 06m 00s.xml">
+      <configuration name="pytest in register.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_tests - 2019.03.28 at 23h 59m 41s.xml">
-      <configuration name="pytest in tests" configurationId="tests" />
+    <history-entry file="pytest_for_register_test_step2_uncorrect_code - 2019.04.22 at 10h 12m 30s.xml">
+      <configuration name="pytest for register.test_step2_uncorrect_code" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_tests - 2019.03.29 at 00h 09m 07s.xml">
-      <configuration name="pytest in tests" configurationId="tests" />
+    <history-entry file="pytest_in_register_py - 2019.04.22 at 10h 13m 03s.xml">
+      <configuration name="pytest in register.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_tests - 2019.03.29 at 00h 16m 03s.xml">
-      <configuration name="pytest in tests" configurationId="tests" />
+    <history-entry file="pytest_in_register_py - 2019.04.22 at 10h 13m 44s.xml">
+      <configuration name="pytest in register.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_in_tests - 2019.04.03 at 00h 11m 43s.xml">
-      <configuration name="pytest in tests" configurationId="tests" />
+    <history-entry file="pytest_in_register_py - 2019.04.22 at 10h 15m 27s.xml">
+      <configuration name="pytest in register.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="pytest_for_register_test_step1_empty_checkbox - 2019.04.21 at 23h 32m 02s.xml">
-      <configuration name="pytest for register.test_step1_empty_checkbox" configurationId="tests" />
+    <history-entry file="pytest_in_register_py - 2019.04.22 at 10h 18m 45s.xml">
+      <configuration name="pytest in register.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_register_py - 2019.04.22 at 16h 21m 12s.xml">
+      <configuration name="pytest in register.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_register_py - 2019.04.22 at 16h 22m 47s.xml">
+      <configuration name="pytest in register.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_register_py - 2019.04.22 at 16h 23m 52s.xml">
+      <configuration name="pytest in register.py" configurationId="tests" />
     </history-entry>
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5211000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24986821" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1641791" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.44193548" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35211268" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32903227" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.22751896" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32903227" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="4" />
     </layout>
     <layout-to-restore>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24986821" />
@@ -389,6 +438,13 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/mir$pytest_for_register_test_step2_uncorrect_code.coverage" NAME="pytest for register.test_step2_uncorrect_code Coverage Results" MODIFIED="1555917145278" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/tests" />
+    <SUITE FILE_PATH="coverage/mir$pytest_in_register_py.coverage" NAME="pytest in register.py Coverage Results" MODIFIED="1555939419841" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/src/tests" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Pipfile.lock">
@@ -428,56 +484,21 @@
     <entry file="file://$PROJECT_DIR$/src/pages/LkCardsPadge.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/.selene/screenshots/1554565844708/screen_1554565844709.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$USER_HOME$/.local/share/virtualenvs/autotest_mir-RFIHUBXW/lib/python3.6/site-packages/selene/factory.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="197">
-          <caret line="68" selection-start-line="68" selection-end-line="68" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/share/virtualenvs/autotest_mir-RFIHUBXW/lib/python3.6/site-packages/pip/_vendor/html5lib/treebuilders/dom.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/share/virtualenvs/autotest_mir-RFIHUBXW/lib/python3.6/site-packages/selene/support/jquery_style_selectors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/share/virtualenvs/autotest_mir-RFIHUBXW/lib/python3.6/site-packages/selene/abctypes/locators.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="13" column="8" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.local/share/virtualenvs/autotest_mir-RFIHUBXW/lib/python3.6/site-packages/selene/browser.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="58" column="20" lean-forward="true" selection-start-line="58" selection-start-column="20" selection-end-line="58" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$USER_HOME$/.selene/screenshots/1554565844708/screen_1554565844709.png" />
+    <entry file="file://$USER_HOME$/.local/share/virtualenvs/autotest_mir-RFIHUBXW/lib/python3.6/site-packages/selene/factory.py" />
+    <entry file="file://$USER_HOME$/.local/share/virtualenvs/autotest_mir-RFIHUBXW/lib/python3.6/site-packages/pip/_vendor/html5lib/treebuilders/dom.py" />
+    <entry file="file://$USER_HOME$/.local/share/virtualenvs/autotest_mir-RFIHUBXW/lib/python3.6/site-packages/selene/support/jquery_style_selectors.py" />
+    <entry file="file://$USER_HOME$/.local/share/virtualenvs/autotest_mir-RFIHUBXW/lib/python3.6/site-packages/selene/abctypes/locators.py" />
+    <entry file="file://$USER_HOME$/.local/share/virtualenvs/autotest_mir-RFIHUBXW/lib/python3.6/site-packages/selene/browser.py" />
     <entry file="file://$PROJECT_DIR$/src/pages/LkCashbackPage.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$USER_HOME$/.selene/screenshots/1554576880892/screen_1554576880893.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$USER_HOME$/.selene/screenshots/1554576880892/screen_1554576880893.png" />
+    <entry file="file://$USER_HOME$/.local/share/virtualenvs/autotest_mir-RFIHUBXW/lib/python3.6/site-packages/selene/elements.py" />
+    <entry file="file://$USER_HOME$/.selene/screenshots/1555878346360/screen_1555878346362.png" />
     <entry file="file://$PROJECT_DIR$/src/components/header.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
+        <state relative-caret-position="68">
           <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
@@ -485,61 +506,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests_pi_vkc/clients-id.py">
+    <entry file="file://$PROJECT_DIR$/src/tests/login.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/model/user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="13" lean-forward="true" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="21" />
+        <state relative-caret-position="306">
+          <caret line="24" column="41" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#24#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/LoginPage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+        <state relative-caret-position="442">
+          <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.local/share/virtualenvs/autotest_mir-RFIHUBXW/lib/python3.6/site-packages/selene/elements.py">
+    <entry file="file://$PROJECT_DIR$/src/model/user.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="361" column="4" selection-start-line="361" selection-start-column="4" selection-end-line="361" selection-end-column="4" />
+        <state relative-caret-position="34">
+          <caret line="2" column="37" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tests_pi_vkc/clients-id.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/LkMainPage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
+        <state relative-caret-position="51">
           <caret line="3" column="16" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/tests/login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="24" column="41" lean-forward="true" selection-start-line="24" selection-start-column="41" selection-end-line="24" selection-end-column="41" />
-          <folding>
-            <element signature="e#0#24#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.selene/screenshots/1555878346360/screen_1555878346362.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/register.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        <state relative-caret-position="614">
+          <caret line="118" column="13" lean-forward="true" selection-start-line="118" selection-start-column="13" selection-end-line="118" selection-end-column="13" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
@@ -548,8 +559,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/RegisterPage.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-61">
-          <caret line="41" column="34" lean-forward="true" selection-start-line="41" selection-start-column="34" selection-end-line="41" selection-end-column="34" />
+        <state relative-caret-position="119">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
