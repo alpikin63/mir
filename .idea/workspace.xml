@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="433c0655-88f2-40ac-b5fc-f3d36bb646ac" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/autotest_mir.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/autotest_mir.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/RegisterPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/RegisterPage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tests/register.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/tests/register.py" afterDir="false" />
-    </list>
+    <list default="true" id="433c0655-88f2-40ac-b5fc-f3d36bb646ac" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +25,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/tests/register.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="447">
+            <state relative-caret-position="942">
               <caret line="143" column="40" lean-forward="true" selection-start-line="143" selection-start-column="40" selection-end-line="143" selection-end-column="40" />
               <folding>
                 <element signature="e#0#24#0" expanded="true" />
@@ -562,7 +557,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/register.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="447">
+        <state relative-caret-position="942">
           <caret line="143" column="40" lean-forward="true" selection-start-line="143" selection-start-column="40" selection-end-line="143" selection-end-column="40" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
