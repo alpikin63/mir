@@ -118,7 +118,29 @@ def test_step3_empty_fieldes():
         RegisterPage().sex_error.should(have.exact_text('Обязательное поле'))
 
 
-# def test_step3_uncorrect_email():
+@allure.title('Проверка ввода некорректного адреса почты')
+def test_step3_uncorrect_email():
+    browser.open_url('http://loginarea:passarea@nspk.aeroidea.ru')
+    with allure.step('Переход на страницу регистрации'):
+        Header().open_register_page().title_text.should(have.exact_text('Регистрация'))
+    with allure.step('Корректно заполненные поля и невалидная почты'):
+        RegisterPage().register_step3(
+            User(phone='9201239742',
+                 approve1=1, approve2=1, sms='1111', email="alpikin",
+                 fio="test", data_day="4", data_month="10", data_year="1993", sex="male", password="123456Qa!",
+                 confirm_password="123456Qa!"), browser.driver())
+    with allure.step('Проверка валидации поля e-mail'):
+        RegisterPage().email_error.should(have.exact_text('Введите корректный email'))
+
+    with allure.step("Проверка отсутствие перехода на сраницу зарегистрированного пользователя"):
+        RegisterPage().title_text.should_not(have.exact_text('Добро пожаловать!'))
+    RegisterPage().check_email('alpikin@')
+    RegisterPage().check_email('@alpikin')
+    RegisterPage().check_email('asd@alpikin')
+    RegisterPage().check_email('lpikin.ru')
+    RegisterPage().check_email('@lpikin.ru')
+
+
 # def test_step3_differents_passwords():
 # def test_step3_correct_registration():
 # def test_step1_deactivated_number();
