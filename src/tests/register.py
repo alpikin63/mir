@@ -139,6 +139,7 @@ def test_step3_uncorrect_email():
     RegisterPage().check_email('asd@alpikin')
     RegisterPage().check_email('lpikin.ru')
     RegisterPage().check_email('@lpikin.ru')
+    RegisterPage().check_email('asd@lpikin.')
 
 
 # def test_step3_differents_passwords():
