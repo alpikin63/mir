@@ -9,6 +9,7 @@ verify_ssl = true
 pytest = "*"
 selene = "*"
 allure-pytest = "*"
+jsonschema = "*"
 
 [requires]
 python_version = "3.6"
