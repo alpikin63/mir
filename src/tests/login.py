@@ -6,16 +6,17 @@ from src.model.user import User
 from src.pages.LoginPage import LoginPage
 from src.pages.RegisterPage import RegisterPage
 
-config.browser_name = 'chrome'
-tru_user = User(phone='9771874093', password='Qwerty123', fio='Test Cashback')
+tru_user = User(phone='9771874093', password='Qwerty!23', fio='Test Cashback')
 uncorrect_user = User(phone='9771874093', password='Qwerty', fio='Test Cashback1')
 user_without_password = User(phone='9771874093')
 user_without_login = User(password='Qwerty123')
 
+def setup_module(module):
+    browser.open_url('/')
+
 
 @allure.title('Проверка авторизации, существующим пользователемм')
 def test_login_correct():
-    browser.open_url('http://loginarea:passarea@nspk.aeroidea.ru')
     with allure.step('Переход на страницу авторизации'):
         Header().open_login_page().title_name.should(have.exact_text('Вход'))
     with allure.step('Ввод номера и пароля'):
@@ -29,7 +30,6 @@ def test_login_correct():
 
 @allure.title('Проверка авторизации существующего пользователя, без ввода пароля')
 def test_password_uncorrect():
-    browser.open_url('http://loginarea:passarea@nspk.aeroidea.ru')
     with allure.step('Переход на страницу авторизации'):
         Header().open_login_page().title_name.should(have.exact_text('Вход'))
     with allure.step('Ввод номера и пустого пароля'):
@@ -46,7 +46,6 @@ def test_password_uncorrect():
 
 @allure.title('Проверка авторизации существующего пользователя, без ввода логина')
 def test_login_uncorrect():
-    browser.open_url('http://loginarea:passarea@nspk.aeroidea.ru')
     with allure.step('Переход на страницу авторизации'):
         Header().open_login_page().title_name.should(have.exact_text('Вход'))
     with allure.step('Ввод номера и пароля'):
@@ -63,7 +62,6 @@ def test_login_uncorrect():
 
 @allure.title('Проверка авторизации не существующего пользователя')
 def test_login_uncorrect_user():
-    browser.open_url('http://loginarea:passarea@nspk.aeroidea.ru')
     with allure.step('Переход на страницу авторизации'):
         Header().open_login_page().title_name.should(have.exact_text('Вход'))
     with allure.step('Ввод номера и пароля'):
@@ -80,7 +78,6 @@ def test_login_uncorrect_user():
 
 @allure.title('Проверка авторизации при пустых логине и пароле')
 def test_login_password_empty():
-    browser.open_url('http://loginarea:passarea@nspk.aeroidea.ru')
     with allure.step('Переход на страницу авторизации'):
         Header().open_login_page().title_name.should(have.exact_text('Вход'))
     with allure.step('Ввод несуществующего номера и пароля'):
@@ -98,7 +95,6 @@ def test_login_password_empty():
 
 @allure.title('Переход на страницу регистрации')
 def test_register_open():
-    browser.open_url('http://loginarea:passarea@nspk.aeroidea.ru')
     with allure.step('Переход на страницу авторизации'):
         Header().open_login_page().title_name.should(have.exact_text('Вход'))
     with allure.step('Нажатие на ссылку Регистрация'):
