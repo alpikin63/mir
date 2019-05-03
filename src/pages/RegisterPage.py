@@ -3,7 +3,7 @@ from selenium import webdriver
 from selenium.webdriver.common.action_chains  import ActionChains
 from selene.api import *
 import allure
-
+import time
 
 class RegisterPage(object):
     def __init__(self):
@@ -36,6 +36,7 @@ class RegisterPage(object):
         self.master_error = s('.master-message.is-error.is-active')
         self.auth_back_error = s('.auth__master-error')
         self.sex_error = s('div.reg__form-block.reg__form-block--radio.form__group.mb-4 > div > span')
+        self.welcome_button = s('.reg__success-btn')
 
     def register_step1(self, user, driver):
         with allure.step('Ввод телефона: %s - переход на следующий шаг'%user.phone):
@@ -74,7 +75,7 @@ class RegisterPage(object):
                 self.password_input.set(user.password)
 
             with allure.step('Поле Повторение пароля: %s'%user.confirm_password):
-                self.confirm_password_input.set(user.password)
+                self.confirm_password_input.set(user.confirm_password)
 
             with allure.step('Поле Дата рождения'):
 
@@ -97,6 +98,7 @@ class RegisterPage(object):
                     self.female_radio.click()
             with allure.step('Нажатие кнопки Зарегестрироваться'):
                 self.submit.click()
+        return self
 
     def check_email(self, email):
         with allure.step("Ввод некорректного e-mail: %s"%email):
