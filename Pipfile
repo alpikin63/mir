@@ -11,6 +11,8 @@ selene = "*"
 allure-pytest = "*"
 jsonschema = "*"
 pytest-env = "*"
+selenium = "*"
+
 
 [requires]
 python_version = "3.6"

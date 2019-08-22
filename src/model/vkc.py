@@ -12,7 +12,7 @@ class Vkc(object):
         return response
 
     def clients_by_phone(self, user_phone):
-        response = requests.get(self.url + '/clients/by-phone/' + str(user_phone), headers=self.headers)
+        response = requests.get(self.url + 'clients/by-phone/' + str(user_phone), headers=self.headers)
         return response
 
     def clients_operation_by_id(self, user_id, **params):
@@ -43,7 +43,7 @@ class Vkc(object):
         return response
 
     def offer_by_id(self, offer_id):
-        response = requests.get(self.url+'offers/'+str(offer_id)+'/offers', headers=self.headers)
+        response = requests.get(self.url+'offers/'+str(offer_id), headers=self.headers)
         return response
 
     def offer_points(self, offer_id):
@@ -55,5 +55,5 @@ class Vkc(object):
         return response
 
     def registration_status_by_phone(self, phone):
-        response = requests.get(self.url+'card-registation-statuses/by-phone/'+str(pan), headers=self.headers)
+        response = requests.get(self.url+'card-registation-statuses/by-phone/'+str(phone), headers=self.headers)
         return response

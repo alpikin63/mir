@@ -1,4 +1,6 @@
 from selene.api import *
+import time
+
 
 class LkMenu(object):
     def __init__(self):
@@ -16,6 +18,7 @@ class LkMenu(object):
         return self
 
     def open_settings(self):
+        time.sleep(3)
         self.settings_link.click()
         return self
 

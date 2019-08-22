@@ -3,36 +3,55 @@ from src.components.header import Header
 import allure
 from src.components.lk_menu import LkMenu
 from src.pages.LkSettingsPage import LkSettingsPage
-from src.pages.LkMainPage import LkMainPage
 from src.model.user import User
-from src.pages.LoginPage import LoginPage
 from src.pages.RegisterPage import RegisterPage
-import time
+
 
 test_user = User(approve1=1, approve2=1, sms='1111', email="alpikin@sad.ru",
                  fio="test", data_day="4", data_month="10", data_year="1993", sex="male", password="123456Qa!",
                  confirm_password="123456Qa!", rand=True)
 
+test_user_2 = User(phone='3777777777', approve1=1, approve2=1, sms='1111', password="123456Qa!!",
+                      confirm_password="123456Qa!!")
 
-def setup_module(module):
+test_user_3 = User(phone='3777777778', approve1=1, approve2=1, sms='1111', password="123456Qa!",
+                      confirm_password="123456Qa!!")
+
+test_user_4 = User(phone='3777777779', approve1=1, approve2=1, sms='1111', password="123456Qa!",
+                      confirm_password="123456Qa!!")
+
+
+def setup():
     browser.open_url('/')
 
 
-@allure.title('Првека регистрации существующего пользователя')
-def test_step1_registred_number():
+def teardown():
+    browser.open_url('/?exit=yes')
+    browser.close()
+
+
+@allure.title('Првека регистрации существующего пользователя v2')
+def test_step1_registred_number_v2():
     with allure.step('Переход на страницу регистрации'):
         Header().open_register_page().title_text.should(have.exact_text('Регистрация'))
-    with allure.step("Проверка повления уведомления о использовании текущего номера"):
-        RegisterPage().register_step1(
-            User(phone='9771874093', approve1=1, approve2=1), browser.driver()).master_error.should(have.exact_text(
-            'Такой телефон уже используется'))
-    with allure.step('Проверка отсутствия перехода на второй шаг'):
-        RegisterPage().code_input.should_not(be.visible)
+        RegisterPage().register_step3_already_register_v2(
+            user=test_user_2,
+            driver=browser.driver())
+
+        Header().user_name_button.should(have.text('test'))
+
+
+def test_step1_registred_number_uncorrect_passvords_v2():
+    with allure.step('Переход на страницу регистрации'):
+        Header().open_register_page().title_text.should(have.exact_text('Регистрация'))
+        RegisterPage().register_step3_already_register_v2(
+            user=test_user_3,
+            driver=browser.driver())
+        RegisterPage().confirm_password_error.should(have.text('Новый пароль и подтверждение пароля должны совпадать'))
 
 
 @allure.title('Проверка регистрации при вводе некорректного номера')
 def test_step1_uncorrect_number():
-
     with allure.step('Переход на страницу регистрации'):
         Header().open_register_page().title_text.should(have.exact_text('Регистрация'))
     with allure.step('Ввод номера несоответствующего маске'):
@@ -173,9 +192,12 @@ def test_step3_correct_registration():
         LkMenu().open_settings()
     with allure.step('Проверка совпадения введенных данных на странице настроек'):
         LkSettingsPage().user_name_input.should(have.value(test_user.fio))
-        LkSettingsPage().user_birthday_text.should(have.exact_text(test_user.get_settings_data()))
+        #LkSettingsPage().user_birthday_text.should(have.exact_text(test_user.get_settings_data()))
         LkSettingsPage().user_sex_text.should(have.exact_text(test_user.get_settings_sex()))
         LkSettingsPage().user_email_input.should(have.value(test_user.email))
         LkSettingsPage().user_phone_text.should(have.exact_text(test_user.get_settings_phone()))
     with allure.step("Деактивация пользователя"):
         LkSettingsPage().deactivate_user(test_user)
+
+
+
