@@ -1,12 +1,4 @@
-from src.model.vkc import Vkc
-import json
-import jsonschema
-import pprint
-
-
-def test_correct_code():
-  pprint.pprint(Vkc().partners_by_id('916').json())
-  sheme={
+{
   "definitions": {},
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "http://example.com/root.json",
@@ -129,4 +121,3 @@ def test_correct_code():
     }
   }
 }
-  jsonschema.validate(instance=Vkc().partners_by_id('916').json(), schema=sheme)
