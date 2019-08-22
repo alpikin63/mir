@@ -1,15 +1,17 @@
 from selene.api import s
 from selenium import webdriver
-from selenium.webdriver.common.action_chains  import ActionChains
+from selenium.webdriver.common.action_chains import ActionChains
 from selene.api import *
 import allure
 import time
+
 
 class RegisterPage(object):
     def __init__(self):
         self.title_text = s('h1.reg__title')
         self.phone_input = s('input[id="tel"]')
         self.next_button = s('.reg__footer button')
+        self.cancel_button = s('.reg__footer a')
         self.code_input = s('input[name="code"]')
         self.name_input = s('input[name="name"]')
         self.email_input = s('input[name="email"]')
@@ -37,6 +39,7 @@ class RegisterPage(object):
         self.auth_back_error = s('.auth__master-error')
         self.sex_error = s('div.reg__form-block.reg__form-block--radio.form__group.mb-4 > div > span')
         self.welcome_button = s('.reg__success-btn')
+        self.registered_user_step3_v2_text = s('[name="_method"] + div.row')
 
     def register_step1(self, user, driver):
         with allure.step('Ввод телефона: %s - переход на следующий шаг'%user.phone):
@@ -44,11 +47,11 @@ class RegisterPage(object):
             self.phone_input.send_keys(user.phone)
             if user.chekbox1 == 1:
                 """Костыль для нажатия на чекбокс"""
-                action = webdriver.common.action_chains.ActionChains(driver)
-                action.move_to_element_with_offset(self.checkbox1, 21, 21)
-                action.click()
-                action.perform()
+                action = ActionChains(driver)
+                action.move_to_element_with_offset(
+                    driver.find_element_by_css_selector('label[for="approve1"]'), 20, 20).click().perform()
                 """"""
+
             if user.chekbox2 == 1:
                 self.checkbox2.click()
             self.next_button.click()
@@ -98,6 +101,27 @@ class RegisterPage(object):
                     self.female_radio.click()
             with allure.step('Нажатие кнопки Зарегестрироваться'):
                 self.submit.click()
+        return self
+
+    def register_step3_already_register_v2(self, user, driver, cancel=False):
+        self.register_step2(user, driver)
+        with allure.step('Заполнение данных формы'):
+            with allure.step('Поле Новый Пароль: %s'%user.password):
+                self.password_input.set(user.password)
+
+            with allure.step('Поле Повторение пароля: %s'%user.confirm_password):
+                self.confirm_password_input.set(user.confirm_password)
+
+            with allure.step('Проверка открытия формы смены пароля'):
+                self.title_text.should(have.text('Задать пароль'))
+                self.registered_user_step3_v2_text.should(have.text(
+                    'Уважаемый клиент!\nРанее Вы регистрировались в Программе лояльности. Для восстановления доступа к личному кабинету задайте новый пароль.'))
+            if(cancel):
+                with allure.step('Нажатие кнопки Отмены'):
+                    self.cancel_button.click()
+            else:
+                with allure.step('Нажатие кнопки Зарегестрироваться'):
+                    self.next_button.click()
         return self
 
     def check_email(self, email):
