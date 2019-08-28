@@ -16,6 +16,9 @@ import time
 tru_user = User(phone='3777777777', password='Qwerty!23', fio='test')
 
 
+@allure.suite('Настройки')
+@allure.sub_suite('Личный кабинет')
+@allure.parent_suite('ФБ Личный кабинет')
 class TestSettingsLk:
 
     def setup(self):

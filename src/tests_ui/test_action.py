@@ -5,9 +5,9 @@ from src.components.header import Header
 import allure
 
 
-@allure.suite('Название сьюта')
-@allure.sub_suite('Название класса')
-@allure.parent_suite('Название родителя')
+@allure.suite('Каталог')
+@allure.sub_suite('Каталог')
+@allure.parent_suite('ФБ каталог')
 class TestAction:
 
     actions = Action().serach_active_actions()
@@ -24,11 +24,18 @@ class TestAction:
         regions = Action().get_actions_regions(action_id=self.action['id'])
         for region in regions:
             Header().change_region(region_id=region)
+            allure.attach.file(source=browser.take_screenshot(),
+                               attachment_type=allure.attachment_type.PNG,
+                               name='test')
             s('[data-id="'+str(self.action['id'])+'"]').should(be.visible)
 
+    @allure.title('')
     def test_action_notvisibilble_in_region(self):
         regions = Action().get_actions_regions(action_id=self.action['id'])
         for region in regions:
             Header().change_region(region_id=region)
+            allure.attach.file(source=browser.take_screenshot(),
+                               attachment_type=allure.attachment_type.PNG,
+                               name='test')
             s('[data-id="'+str(self.action['id'])+'"]').should(be.visible)
 

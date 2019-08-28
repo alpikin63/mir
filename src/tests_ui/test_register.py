@@ -41,7 +41,7 @@ class TestRegister:
                 'Такой телефон уже используется'))
         with allure.step('Проверка отсутствия перехода на второй шаг'):
             RegisterPage().code_input.should_not(be.visible)
-        allure.attach.file('', attachment_type=allure.attachment_type.PNG)
+            allure.attach.file('', attachment_type=allure.attachment_type.PNG)
 
     @allure.title('Проверка регистрации при вводе некорректного номера')
     def test_step1_uncorrect_number(self):

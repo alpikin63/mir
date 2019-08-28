@@ -13,7 +13,9 @@ tru_user = User(phone='3777777777', password='Qwerty!23')
 card = Card(number='2202112288880805', pan='220211******0805')
 card_unregistry = Card(number='2202333311111139', pan='220233******1139')
 
-
+@allure.suite('Добавление карты')
+@allure.sub_suite('Личный кабинет')
+@allure.parent_suite('ФБ Личный кабинет')
 class TestAddCard:
 
     def setup(self):

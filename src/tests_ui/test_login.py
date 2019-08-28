@@ -10,8 +10,8 @@ import time
 
 tru_user = User(phone='9771874093', password='Qwerty!23', fio='Test Cashback')
 uncorrect_user = User(phone='9771874093', password='Qwerty!32', fio='Test Cashback!')
-user_without_password = User(phone='9771874093')
-user_without_login = User(password='Qwerty123')
+user_without_password = User(phone='9771874093', password='')
+user_without_login = User(password='Qwerty123', phone='')
 
 
 class TestLogin:
